@@ -1,4 +1,10 @@
-import 'regenerator-runtime'; /* for async await transpile */
-import '../styles/main.css';
+import "regenerator-runtime";
+import "../styles/main.css";
 
-console.log('Hello Coders! :)');
+import "./components/navbar";
+
+const containerElement = document.querySelector("#container");
+
+const appBar = document.createElement("app-bar");
+
+containerElement.appendChild(appBar);

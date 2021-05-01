@@ -1,3 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap");
+@import "./appBar.css";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+}
+
 img {
-    display: block;
+  display: block;
+}
+
+button {
+  box-sizing: border-box;
+  min-width: 44px;
+  min-height: 44px;
 }
