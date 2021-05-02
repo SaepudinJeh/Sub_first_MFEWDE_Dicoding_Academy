@@ -10,7 +10,7 @@ nav {
 nav ul {
   display: flex;
   list-style: none;
-  width: 30%;
+  width: 27%;
   justify-content: space-between;
 }
 
@@ -81,7 +81,7 @@ nav ul a:hover {
 
 @media screen and (max-width: 768px) {
   nav ul {
-    width: 50%;
+    width: 40%;
   }
 }
 
@@ -91,17 +91,23 @@ nav ul a:hover {
   }
   nav ul {
     position: absolute;
+    padding-top: 70px;
     top: 0;
     right: 0;
     height: 100vh;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
-    z-index: -1;
+    justify-content: flex-start;
     background-color: tomato;
     transform: translateX(100%);
     transition: all 0.5s;
     opacity: 0;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  nav ul li {
+    padding: 28px 0;
   }
 
   nav ul.slide {
