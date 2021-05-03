@@ -21,3 +21,9 @@
     height: 300px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .slider figure img {
+    height: 300px;
+  }
+}

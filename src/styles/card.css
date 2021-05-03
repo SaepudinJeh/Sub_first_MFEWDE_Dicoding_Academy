@@ -1,0 +1,57 @@
+.card {
+  width: 90%;
+  max-width: 800px;
+  margin: 32px auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.card-image > img {
+  width: 100%;
+  max-height: 240px;
+  object-fit: center;
+  border-top-left-radius: 1.5em;
+  border-top-right-radius: 1.5em;
+}
+
+.card-image {
+  z-index: -1;
+  position: relative;
+}
+
+.badge-city {
+  color: white;
+  position: absolute;
+  padding: 10px 20px;
+  background-color: tomato;
+  top: 20px;
+  font-weight: lighter;
+  font-size: 10px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.card-info {
+  padding: 20px;
+}
+
+.card-info > h2 {
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 5px;
+}
+
+.card-info > p {
+  margin-top: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  font-size: 15px;
+  color: gray;
+}
+
+.card-info > h3 {
+  font-size: 15px;
+  color: orange;
+}

@@ -12,6 +12,7 @@ nav ul {
   list-style: none;
   width: 27%;
   justify-content: space-between;
+  font-weight: bold;
 }
 
 nav ul a {
