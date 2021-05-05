@@ -6,8 +6,8 @@ class slideImage extends HTMLElement {
     render() {
         this.innerHTML =   `
             <div class="slider">
-                <figure>
-                    <img src="images/heros/hero-image_2.jpg" >
+                <figure class="hero-image">
+                    <img src="images/heros/hero-image_3.jpg" >
                 </figure>
             </div>
         `;

@@ -1,5 +1,7 @@
 .slider {
   overflow: hidden;
+  position: relative;
+  z-index: -1;
 }
 
 .slider figure {
@@ -14,6 +16,33 @@
   width: 20%;
   object-fit: cover;
   height: 430px;
+}
+
+.hero-image > p {
+  position: absolute;
+  width: 100%;
+  top: 100px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+  font-size: 20px;
+}
+
+.hero-image a {
+  position: absolute;
+  top: 140px;
+  font-size: 12px;
+  text-decoration: none;
+  padding: 10px;
+  background-color: tomato;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+  font-size: 20px;
 }
 
 @media screen and (max-width: 576px) {
