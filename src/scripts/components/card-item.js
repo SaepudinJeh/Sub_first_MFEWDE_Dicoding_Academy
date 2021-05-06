@@ -8,7 +8,7 @@ class cardItem extends HTMLElement {
         this.innerHTML = `
             <div class="cards">
                 <figure class="card-image">
-                    <img src="${this._data.pictureId}" alt="Fan Art">
+                    <img src="${this._data.pictureId}" alt="${this._data.name}">
                     <h5 class="badge-city">${this._data.city}</h5>
                 </figure>
                 

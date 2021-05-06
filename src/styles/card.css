@@ -4,8 +4,7 @@ card-list {
   grid-gap: 1em;
   margin: 15px auto;
   grid-template-columns: repeat(3, 1fr);
-  margin: 0 auto;
-
+  margin-top: 30px;
   padding: 0 20px;
 }
 

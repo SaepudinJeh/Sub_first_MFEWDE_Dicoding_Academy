@@ -1,5 +1,4 @@
 .slider {
-  overflow: hidden;
   position: relative;
   z-index: -1;
 }
@@ -9,7 +8,6 @@
   margin: 0;
   padding: 0;
   left: 0;
-  animation: 20s slider infinite;
 }
 
 .slider figure img {
@@ -18,7 +16,7 @@
   height: 430px;
 }
 
-.hero-image > p {
+.hero-image > h1 {
   position: absolute;
   width: 100%;
   top: 100px;
@@ -30,13 +28,11 @@
   font-size: 20px;
 }
 
-.hero-image a {
+.hero-image h2 {
   position: absolute;
-  top: 140px;
+  top: 130px;
   font-size: 12px;
-  text-decoration: none;
   padding: 10px;
-  background-color: tomato;
   left: 0;
   right: 0;
   text-align: center;

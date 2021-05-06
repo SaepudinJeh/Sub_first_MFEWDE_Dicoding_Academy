@@ -2,7 +2,7 @@ import "regenerator-runtime";
 import "../styles/main.css";
 
 import "./components/navbar";
-import "./components/slider";
+import "./components/heroImage";
 import "./components/card-list";
 import data from "../DATA.json";
 
