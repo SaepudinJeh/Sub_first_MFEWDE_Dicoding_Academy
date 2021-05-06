@@ -12,9 +12,9 @@ class appBar extends HTMLElement {
 
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">Explore</a></li>
+                    <li><a href="#explore">Explore</a></li>
                     <li><a href="#">Favorite</a></li>
-                    <li><a href="#">About Us</a></li>
+                    <li><a target="_blank" href="https://www.linkedin.com/in/agung-saepudin-230799">About Us</a></li>
                 </ul>
                 
                 <div class="hamburger">

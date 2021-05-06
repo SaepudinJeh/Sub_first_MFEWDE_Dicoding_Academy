@@ -11,6 +11,8 @@ class slideImage extends HTMLElement {
                     <h1>Makan-makan Apps</h1>
                     <h2>Makan sesukannya, bayar sesukannya</h2>
                 </figure>
+
+                <h1 id="explore">Explore Restaurants</h1>
             </div>
         `;
     }

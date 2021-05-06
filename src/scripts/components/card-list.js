@@ -7,7 +7,7 @@ class CardList extends HTMLElement {
     }
 
     render() {
-        this.innerHTML = "";
+        this.innerHTML = '';
         this._cards.forEach(card => {
             const createCardItem = document.createElement('card-item');
             createCardItem.card = card;
