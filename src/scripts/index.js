@@ -6,6 +6,7 @@ import "./components/slider";
 import "./components/card-list";
 import data from "../DATA.json";
 
+const headerElement = document.querySelector("header");
 const containerElement = document.querySelector("#container");
 
 const appBar = document.createElement("app-bar");
@@ -14,6 +15,6 @@ const cardList = document.createElement("card-list");
 
 cardList.cards = data.restaurants;
 
-containerElement.appendChild(appBar);
-containerElement.appendChild(slideImage);
+headerElement.appendChild(appBar);       
+headerElement.appendChild(slideImage);
 containerElement.appendChild(cardList);
