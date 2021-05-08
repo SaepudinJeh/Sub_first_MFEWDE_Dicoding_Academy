@@ -35,7 +35,9 @@ nav ul a:hover {
 .hamburger {
   display: none;
   flex-direction: column;
-  height: 18px;
+  height: 44px;
+  width: 44px;
+  padding: 13px;
   justify-content: space-between;
   position: relative;
 }
