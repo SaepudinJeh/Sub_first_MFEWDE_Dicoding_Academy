@@ -14,7 +14,7 @@ class cardItem extends HTMLElement {
                 
                 <div class="card-info">
                     <h3>Rating: ${this._data.rating}</h3>
-                    <a href="#" tabindex="1">${this._data.name}</a>
+                    <a href="#">${this._data.name}</a>
                     <p>${this._data.description.substring(0, 200)}</p>
                 </div>
             </div>
