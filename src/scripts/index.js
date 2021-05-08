@@ -7,7 +7,7 @@ import "./components/card-list";
 import data from "../DATA.json";
 
 const headerElement = document.querySelector("header");
-const containerElement = document.querySelector("#container");
+const containerElement = document.querySelector(".container");
 
 const appBar = document.createElement("app-bar");
 const slideImage = document.createElement("slider-images");

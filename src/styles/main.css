@@ -39,3 +39,18 @@ footer {
 footer p {
   padding: 20px 0;
 }
+
+.skip-content {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background-color: #bf1722;
+  color: white;
+  padding: 8px;
+  z-index: 100;
+  text-decoration: none;
+}
+
+.skip-content:focus {
+  top: 0;
+}
