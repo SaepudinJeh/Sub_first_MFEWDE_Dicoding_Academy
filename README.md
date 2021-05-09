@@ -1,6 +1,6 @@
 # Sub_first_MFEWDE_Dicoding_Academy
 
-```ruby
+```javascript
 Yarn / npm install
 
 yarn / npm start-dev => development
