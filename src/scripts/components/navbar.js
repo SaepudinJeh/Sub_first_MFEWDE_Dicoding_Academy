@@ -11,6 +11,8 @@ class appBar extends HTMLElement {
                         <h1>Makan-Makan</h1>
                     </a>
 
+                    <button class="menu-btn">☰</button>
+                    
                     <ul class="menu-list">
                         <button class="close-btn">✖</button>
 
@@ -18,8 +20,6 @@ class appBar extends HTMLElement {
                         <li><a href="#">Favorite</a></li>
                         <li><a target="_blank" href="https://www.linkedin.com/in/agung-saepudin-230799">About Us</a></li>
                     </ul>
-
-                    <button class="menu-btn">☰</button>
                 </div>
             </nav>
         `;
