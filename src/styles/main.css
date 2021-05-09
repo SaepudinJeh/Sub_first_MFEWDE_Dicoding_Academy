@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @import "./appBar.css";
 @import "./heroImage.css";
 @import "./card.css";
@@ -16,7 +17,7 @@ img {
 body {
   width: 100%;
   height: 100vh;
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 10px;
   overflow-x: hidden;
   -webkit-tap-highlight-color: transparent;

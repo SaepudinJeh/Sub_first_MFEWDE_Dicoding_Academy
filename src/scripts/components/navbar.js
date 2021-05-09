@@ -16,16 +16,15 @@ class appBar extends HTMLElement {
                     <li><a target="_blank" href="https://www.linkedin.com/in/agung-saepudin-230799">About Us</a></li>
                 </ul>
                 
-                <div class="hamburger">
-                    <input type="checkbox" />
+                <button class="hamburger">
                     <span></span>
                     <span></span>
                     <span></span>
-                </div>
+                </button>
             </nav>
         `;
 
-        const hamburgerElement = document.querySelector(".hamburger input");
+        const hamburgerElement = document.querySelector(".hamburger");
         const navElement = document.querySelector("nav ul");
 
         hamburgerElement.addEventListener('click', () => {

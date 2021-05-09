@@ -1,6 +1,7 @@
 .slider {
   position: relative;
   z-index: -1;
+  overflow-x: hidden;
 }
 
 .slider figure {
@@ -44,6 +45,8 @@
 @media screen and (max-width: 576px) {
   .slider figure img {
     height: 300px;
+    overflow-x: hidden;
+    display: hidden;
   }
 }
 
