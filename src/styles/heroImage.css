@@ -1,7 +1,9 @@
 .slider {
+  top: 60px;
   position: relative;
   z-index: -1;
   overflow-x: hidden;
+  margin-bottom: 100px;
 }
 
 .slider figure {
@@ -14,7 +16,7 @@
 .slider figure img {
   width: 20%;
   object-fit: cover;
-  height: 430px;
+  height: 350px;
 }
 
 .hero-image > h1 {
@@ -26,7 +28,7 @@
   text-align: center;
   margin: 0 auto;
   color: white;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .hero-image h2 {
